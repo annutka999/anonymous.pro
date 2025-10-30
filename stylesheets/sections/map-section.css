@@ -1,0 +1,63 @@
+.world-map {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.world-map__image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.map-item {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.map-item__img {
+  display: block;
+  width: 70px;
+  height: auto;
+  border-radius: 6px;
+  padding: 4px;
+}
+
+.map-text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  padding: 2px 4px;
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: #2F1800;
+}
+
+.map-item.rotate {
+  transform: translate(-50%, -50%) rotate(180deg);
+}
+
+.map-text.white {
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+
+.map_old-paper {
+  margin-top: 12px;
+  padding: 0 2rem;
+  background-image: url('../../images/old-paper-bg.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.map_old-paper p {
+  font-family: 'Anonymous Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 130%;
+  color: #2F1800;
+  padding: 1rem 5rem;
+}

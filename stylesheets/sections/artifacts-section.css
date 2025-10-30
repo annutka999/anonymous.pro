@@ -1,0 +1,41 @@
+.artifacts-section {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.artifacts-section_image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.artifacts_number {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Anonymous Pro', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #2F1800;
+}
+
+.artifacts_description {
+  padding: 1rem;
+  margin-top: 20px;
+  background: #2F1800;
+  display: flex;
+  gap: 2rem;
+}
+
+.artifacts_description p {
+  flex: 1;
+  margin: 10px;
+  font-family: 'Anonymous Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #FFFFFF;
+}

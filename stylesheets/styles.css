@@ -1,0 +1,64 @@
+@import url('./sections/general-section.css');
+@import url('./sections/history-section.css');
+@import url('./sections/map-section.css');
+@import url('./sections/anatomy-section.css');
+@import url('./sections/artifacts-section.css');
+
+.section_outline-title {
+  font-size: 4rem;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px #2F1800;
+  color: transparent;
+}
+
+p.description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+
+.suvenirs-section {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  margin: 0 auto;
+}
+
+.suvenirs-section_item {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  border: 2px solid #2F1800;
+}
+
+.footer p {
+  flex: 1;
+  padding: 20px 24px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #2F1800;
+  border-right: 2px solid #2F1800;
+}
+
+.footer p:last-child {
+  border-right: none;
+}
+
+.hovered-item {
+  transition: filter 0.3s ease;
+  cursor: pointer;
+}
+
+.hovered-item:hover {
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+}

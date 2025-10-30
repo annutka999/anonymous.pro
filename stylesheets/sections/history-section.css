@@ -1,0 +1,117 @@
+.history-section {
+  position: relative;
+  padding: 4rem 2rem;
+}
+
+.section_outline-title {
+  font-family: 'Anonymous Pro', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.history-section_group {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.history-section_image {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  max-width: 600px;
+  object-fit: cover;
+  display: block;
+}
+
+.history-section_description-box {
+  width: 100%;
+  margin-left: auto;
+  padding: 2rem 5rem;
+
+  max-width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+
+  background-image: url('../../images/papirus-bg.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.history-section_description-container {
+  display: flex;
+  align-items: start;
+  gap: 2rem;
+}
+
+.history-section_description-container>div:first-child {
+  flex: 2;
+}
+
+.history-section_description-container>div:first-child .history-section_title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.history-section_title {
+  margin-right: auto;
+  font-family: 'Anonymous Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7rem;
+  text-align: left;
+  text-transform: uppercase;
+  color: #2F1800;
+}
+
+.history-section_description-container>div:first-child .history-section_description {
+  font-family: 'Anonymous Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 130%;
+  color: #2F1800;
+  margin-bottom: 1rem;
+}
+
+.history-section_description-container>div:first-child .history-section_signature {
+  margin-top: 1rem;
+  max-width: 150px;
+  display: block;
+}
+
+.history-section_description-container>div:last-child {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.history-section_description-container>div:last-child img {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 3rem;
+}
+
+.history-section_description-container>svg {
+  margin-left: auto;
+}
+
+.history-section_author-name {
+  font-family: 'Anonymous Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #2F1800;
+}
